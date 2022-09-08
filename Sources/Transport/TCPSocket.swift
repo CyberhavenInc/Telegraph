@@ -139,6 +139,10 @@ public final class TCPSocket: NSObject {
   }
 }
 
+public extension TCPSocket {
+  var fd: Int32 { socket.socketFD() }
+}
+
 /// ReadStream and WriteStream implementation
 
 extension TCPSocket: ReadStream, WriteStream {

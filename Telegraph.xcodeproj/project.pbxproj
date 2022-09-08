@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82064114240C45C7003403F3 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 82064113240C45C7003403F3 /* CocoaAsyncSocket */; };
 		82064116240C45CE003403F3 /* HTTPParserC in Frameworks */ = {isa = PBXBuildFile; productRef = 82064115240C45CE003403F3 /* HTTPParserC */; };
-		82064118240C45DD003403F3 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 82064117240C45DD003403F3 /* CocoaAsyncSocket */; };
 		8206411A240C45E2003403F3 /* HTTPParserC in Frameworks */ = {isa = PBXBuildFile; productRef = 82064119240C45E2003403F3 /* HTTPParserC */; };
-		8206411C240C45E7003403F3 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 8206411B240C45E7003403F3 /* CocoaAsyncSocket */; };
 		8206411E240C45EA003403F3 /* HTTPParserC in Frameworks */ = {isa = PBXBuildFile; productRef = 8206411D240C45EA003403F3 /* HTTPParserC */; };
-		82064137240C4A35003403F3 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 82064136240C4A35003403F3 /* CocoaAsyncSocket */; };
 		8206413B240C4A46003403F3 /* HTTPParserC in Frameworks */ = {isa = PBXBuildFile; productRef = 8206413A240C4A46003403F3 /* HTTPParserC */; };
 		8206413D240C7821003403F3 /* ServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8206413C240C7821003403F3 /* ServerTests.swift */; };
 		8206413F240C7FF2003403F3 /* ca.der in Resources */ = {isa = PBXBuildFile; fileRef = 8206413E240C7FEC003403F3 /* ca.der */; };
@@ -234,6 +230,9 @@
 		82FB49BE2195BBFB00C4E574 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB49BD2195BBFB00C4E574 /* Deprecations.swift */; };
 		82FB49BF2195BBFB00C4E574 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB49BD2195BBFB00C4E574 /* Deprecations.swift */; };
 		82FB49C02195BBFB00C4E574 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB49BD2195BBFB00C4E574 /* Deprecations.swift */; };
+		E626347928CA058000E6C6D4 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = E626347828CA058000E6C6D4 /* CocoaAsyncSocket */; };
+		E626347B28CA059800E6C6D4 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = E626347A28CA059800E6C6D4 /* CocoaAsyncSocket */; };
+		E626347D28CA059C00E6C6D4 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = E626347C28CA059C00E6C6D4 /* CocoaAsyncSocket */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -361,7 +360,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82064114240C45C7003403F3 /* CocoaAsyncSocket in Frameworks */,
+				E626347D28CA059C00E6C6D4 /* CocoaAsyncSocket in Frameworks */,
 				82064116240C45CE003403F3 /* HTTPParserC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +369,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82064118240C45DD003403F3 /* CocoaAsyncSocket in Frameworks */,
+				E626347B28CA059800E6C6D4 /* CocoaAsyncSocket in Frameworks */,
 				8206411A240C45E2003403F3 /* HTTPParserC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +378,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8206411C240C45E7003403F3 /* CocoaAsyncSocket in Frameworks */,
+				E626347928CA058000E6C6D4 /* CocoaAsyncSocket in Frameworks */,
 				8206411E240C45EA003403F3 /* HTTPParserC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +387,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82064137240C4A35003403F3 /* CocoaAsyncSocket in Frameworks */,
 				8206413B240C4A46003403F3 /* HTTPParserC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,8 +713,8 @@
 			);
 			name = "Telegraph iOS";
 			packageProductDependencies = (
-				82064113240C45C7003403F3 /* CocoaAsyncSocket */,
 				82064115240C45CE003403F3 /* HTTPParserC */,
+				E626347C28CA059C00E6C6D4 /* CocoaAsyncSocket */,
 			);
 			productName = "Telegraph iOS";
 			productReference = 825A71A21ECD28710043AC8D /* Telegraph.framework */;
@@ -738,8 +736,8 @@
 			);
 			name = "Telegraph tvOS";
 			packageProductDependencies = (
-				82064117240C45DD003403F3 /* CocoaAsyncSocket */,
 				82064119240C45E2003403F3 /* HTTPParserC */,
+				E626347A28CA059800E6C6D4 /* CocoaAsyncSocket */,
 			);
 			productName = "Telegraph tvOS";
 			productReference = 825A71AF1ECD28CE0043AC8D /* Telegraph.framework */;
@@ -761,8 +759,8 @@
 			);
 			name = "Telegraph macOS";
 			packageProductDependencies = (
-				8206411B240C45E7003403F3 /* CocoaAsyncSocket */,
 				8206411D240C45EA003403F3 /* HTTPParserC */,
+				E626347828CA058000E6C6D4 /* CocoaAsyncSocket */,
 			);
 			productName = "Telegraph macOS";
 			productReference = 825A71BC1ECD29020043AC8D /* Telegraph.framework */;
@@ -783,7 +781,6 @@
 			);
 			name = "Telegraph Tests";
 			packageProductDependencies = (
-				82064136240C4A35003403F3 /* CocoaAsyncSocket */,
 				8206413A240C4A46003403F3 /* HTTPParserC */,
 			);
 			productName = TelegraphTests;
@@ -843,8 +840,8 @@
 			);
 			mainGroup = D9899DC01DF4A091008766B5;
 			packageReferences = (
-				8206410D240C4559003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
 				82064110240C456E003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */,
+				E626347728CA058000E6C6D4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
 			);
 			productRefGroup = D9899DCB1DF4A092008766B5 /* Products */;
 			projectDirPath = "";
@@ -1631,14 +1628,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8206410D240C4559003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.6.4;
-			};
-		};
 		82064110240C456E003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Building42/HTTPParserC";
@@ -1647,48 +1636,51 @@
 				minimumVersion = 9.2.0;
 			};
 		};
+		E626347728CA058000E6C6D4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CyberhavenInc/CocoaAsyncSocket";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		82064113240C45C7003403F3 /* CocoaAsyncSocket */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8206410D240C4559003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
-			productName = CocoaAsyncSocket;
-		};
 		82064115240C45CE003403F3 /* HTTPParserC */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 82064110240C456E003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */;
 			productName = HTTPParserC;
-		};
-		82064117240C45DD003403F3 /* CocoaAsyncSocket */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8206410D240C4559003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
-			productName = CocoaAsyncSocket;
 		};
 		82064119240C45E2003403F3 /* HTTPParserC */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 82064110240C456E003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */;
 			productName = HTTPParserC;
 		};
-		8206411B240C45E7003403F3 /* CocoaAsyncSocket */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8206410D240C4559003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
-			productName = CocoaAsyncSocket;
-		};
 		8206411D240C45EA003403F3 /* HTTPParserC */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 82064110240C456E003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */;
 			productName = HTTPParserC;
 		};
-		82064136240C4A35003403F3 /* CocoaAsyncSocket */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8206410D240C4559003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
-			productName = CocoaAsyncSocket;
-		};
 		8206413A240C4A46003403F3 /* HTTPParserC */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 82064110240C456E003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */;
 			productName = HTTPParserC;
+		};
+		E626347828CA058000E6C6D4 /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E626347728CA058000E6C6D4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+		E626347A28CA059800E6C6D4 /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E626347728CA058000E6C6D4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+		E626347C28CA059C00E6C6D4 /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E626347728CA058000E6C6D4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

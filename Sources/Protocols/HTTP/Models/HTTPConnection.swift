@@ -151,6 +151,10 @@ public extension HTTPConnection {
   }
 }
 
+public extension HTTPConnection {
+  var socketFd: Int32 { socket.fd }
+}
+
 // MARK: TCPSocketDelegate implementation
 
 extension HTTPConnection: TCPSocketDelegate {

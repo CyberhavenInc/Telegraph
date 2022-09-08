@@ -68,6 +68,7 @@ open class Server {
   open func handleIncoming(request: HTTPRequest, connection: HTTPConnection, error: Error?) {
     workerQueue.addOperation { [weak self, weak connection] in
       guard let self = self, let connection = connection else { return }
+      request.socket = connection.socketFd
 
       // Get a response for the request
       let response = self.responseFor(request: request, error: error)
